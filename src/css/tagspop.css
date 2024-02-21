@@ -1,0 +1,63 @@
+.tags-popup {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    opacity: 0; /* Start with 0 opacity */
+    animation: fadeIn 0.5s ease-out forwards; /* Animation properties */
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0; /* Start from 0 opacity */
+      transform: translateY(-20px); /* Move up by 20px */
+    }
+    to {
+      opacity: 1; /* End at full opacity */
+      transform: translateY(0); /* End at original position */
+    }
+  }
+  
+  .tags-popup h4 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .tags-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+  }
+  
+  .tags-table th, .tags-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .tags-input-container {
+    margin-bottom: 15px;
+  }
+  
+  .tags-input-container input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+  }
+  
+  .tagbutton {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .tagbutton:hover {
+    background-color: #29394b;
+  }
+  
